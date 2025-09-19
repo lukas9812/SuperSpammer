@@ -1,7 +1,12 @@
+using SuperSpammer.Architecture;
+using SuperSpammer.Infastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<ISmptClientService, SmtpClientService>();
+builder.Services.AddScoped<IAttendantService, AttendantService>();
 
 var app = builder.Build();
 

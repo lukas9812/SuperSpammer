@@ -4,113 +4,86 @@
     <projectFile profileName="http">WebApplication1/WebApplication1.csproj</projectFile>
     <projectFile profileName="https">WebApplication1/WebApplication1.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fda913d0-118a-4ecf-a7c2-8ef0d00f0bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/SuperSpammer.WebApi.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/wwwroot/lib/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/AttendantService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/SuperSpammer.Architecture.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/IAttendantService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/ISmptClientService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/SuperSpammer.Infastructure.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/EmailUserInterface.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/SuperSpammer.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/SuperSpammer.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lukas9812"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lukas9812/SuperSpammer.git",
+    "accountId": "43e62958-d09f-41f0-8142-3320f278f07b"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fe8faa2fdbebbf9c210262cb6ee4a9337e8c6dcc8997a83cb47fd53265e/SmtpClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="32w7OsunpS8ZbJwonmVXo5U72RH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.SuperSpammer: http.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -157,16 +130,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758319752282</updated>
-      <workItem from="1758319753997" duration="195000" />
+      <workItem from="1758319753997" duration="5736000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1758320111405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758320111405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,5 +181,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

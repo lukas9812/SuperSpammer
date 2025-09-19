@@ -1,0 +1,34 @@
+@page
+@model SuperSpammer.WebApi.Pages.MainPage
+
+<h2>Super Spammer</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="InputValue" class="form-label">Enter value:</label>
+        <input asp-for="InputValue" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SelectedNumber" class="form-label">Select number:</label>
+        <select asp-for="SelectedNumber" class="form-select" asp-items="Model.NumberOptions">
+            <option value="">-- Choose a number --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-success mt-3">
+        @Model.Message
+    </div>
+}
+
+<!-- Navigace -->
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+    </li>
+</ul>

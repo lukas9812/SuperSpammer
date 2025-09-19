@@ -6,4 +6,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SuperSpammer.Architecture\SuperSpammer.Architecture.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\EmailTemplate.html" />
+    </ItemGroup>
+
 </Project>

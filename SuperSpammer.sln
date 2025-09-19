@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.WebApi", "SuperSpammer.WebApi\SuperSpammer.WebApi.csproj", "{FA7908B4-6C8B-4016-BA36-71AB7BC85AD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.Architecture", "SuperSpammer.Architecture\SuperSpammer.Architecture.csproj", "{2D63BE53-D478-478B-B805-B4B4A0844AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.Infastructure", "SuperSpammer.Infastructure\SuperSpammer.Infastructure.csproj", "{E6F6607E-20A3-42B7-A225-919832B1D861}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{FA7908B4-6C8B-4016-BA36-71AB7BC85AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA7908B4-6C8B-4016-BA36-71AB7BC85AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA7908B4-6C8B-4016-BA36-71AB7BC85AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D63BE53-D478-478B-B805-B4B4A0844AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D63BE53-D478-478B-B805-B4B4A0844AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D63BE53-D478-478B-B805-B4B4A0844AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D63BE53-D478-478B-B805-B4B4A0844AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F6607E-20A3-42B7-A225-919832B1D861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F6607E-20A3-42B7-A225-919832B1D861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F6607E-20A3-42B7-A225-919832B1D861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F6607E-20A3-42B7-A225-919832B1D861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
