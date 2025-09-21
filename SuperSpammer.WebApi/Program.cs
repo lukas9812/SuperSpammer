@@ -1,4 +1,5 @@
 using SuperSpammer.Architecture;
+using SuperSpammer.Architecture.Models;
 using SuperSpammer.Infastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<ISmtpClientService, SmtpClientService>();
 builder.Services.AddScoped<IAttendantService, AttendantService>();
+builder.Services.Configure<EmailCredentials>(
+    builder.Configuration.GetSection("EmailCredentials"));
 
 var app = builder.Build();
 

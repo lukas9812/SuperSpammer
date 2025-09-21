@@ -1,11 +1,17 @@
 ﻿using MailKit.Net.Smtp;
+using Microsoft.Extensions.Options;
 using MimeKit;
+using SuperSpammer.Architecture.Models;
 using SuperSpammer.Infastructure;
 
 namespace SuperSpammer.Architecture;
 
 public class SmtpClientService : ISmtpClientService
 {
+    public SmtpClientService(IOptions<EmailCredentials> emailCredentials)
+    {
+        _emailCredentials = emailCredentials.Value;
+    }
     public async Task SendEmailAsync(string from, string to, string subject)
     {
         var filePath = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot", "EmailTemplate.html");
@@ -25,7 +31,7 @@ public class SmtpClientService : ISmtpClientService
         try
         {
             await client.ConnectAsync(_smtpServer, _port, _useSsl);
-            await client.AuthenticateAsync(_username, _password);
+            await client.AuthenticateAsync(_emailCredentials.EmailAddress, _emailCredentials.EmailPassword);
             await client.SendAsync(message);
         }
         catch (Exception ex)
@@ -44,4 +50,5 @@ public class SmtpClientService : ISmtpClientService
     readonly string _username = "tvuj@email.com";
     readonly string _password = "xxxx";
     readonly bool _useSsl = false;
+    readonly EmailCredentials _emailCredentials;
 }
