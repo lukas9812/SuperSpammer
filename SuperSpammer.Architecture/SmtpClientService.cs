@@ -4,11 +4,11 @@ using SuperSpammer.Infastructure;
 
 namespace SuperSpammer.Architecture;
 
-public class SmtpClientService : ISmptClientService
+public class SmtpClientService : ISmtpClientService
 {
-    public async Task SendEmailAsync(string from, string to, string subject, string body)
+    public async Task SendEmailAsync(string from, string to, string subject)
     {
-        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "EmailTemplate.html");
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot", "EmailTemplate.html");
         var htmlBody = await File.ReadAllTextAsync(filePath);
 
         var message = new MimeMessage();
@@ -30,7 +30,7 @@ public class SmtpClientService : ISmptClientService
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Chyba při odesílání emailu: {ex.Message}");
+            Console.WriteLine($"Send email error: {ex.Message}");
             throw;
         }
         finally
@@ -43,5 +43,5 @@ public class SmtpClientService : ISmptClientService
     readonly int _port = 587;
     readonly string _username = "tvuj@email.com";
     readonly string _password = "xxxx";
-    readonly bool _useSsl = true;
+    readonly bool _useSsl = false;
 }

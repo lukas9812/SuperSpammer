@@ -9,20 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fda913d0-118a-4ecf-a7c2-8ef0d00f0bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/AttendantService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/SuperSpammer.Architecture.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/IAttendantService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/ISmptClientService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/SuperSpammer.Infastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/EmailUserInterface.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.Architecture/AttendantService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/AttendantService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.Infastructure/IAttendantService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/IAttendantService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.Infastructure/ISmptClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.Infastructure/ISmtpClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Pages/MainPage.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/SuperSpammer.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/SuperSpammer.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperSpammer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperSpammer.WebApi/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SuperSpammer.WebApi/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fe8faa2fdbebbf9c210262cb6ee4a9337e8c6dcc8997a83cb47fd53265e/SmtpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SuperSpammer.WebApi/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/lukassrovnal/RiderProjects/WebApplication1/SuperSpammer.WebApi/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/lukassrovnal/RiderProjects/WebApplication1/SuperSpammer.WebApi/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -72,7 +69,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.SuperSpammer: http.executor": "Run",
+    ".NET Launch Settings Profile.SuperSpammer: http.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758319752282</updated>
-      <workItem from="1758319753997" duration="5736000" />
+      <workItem from="1758319753997" duration="9453000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -140,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758320111405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create SmptClient&#10;Template for email&#10;New link&#10;DI Config">
+      <option name="closed" value="true" />
+      <created>1758325861926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758325861926</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="Create SmptClient&#10;Template for email&#10;New link&#10;DI Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create SmptClient&#10;Template for email&#10;New link&#10;DI Config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -179,6 +185,32 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" containingFunctionPresentation="Method 'SendEmailAsync'">
+            <startOffsets>
+              <option value="247" />
+            </startOffsets>
+            <endOffsets>
+              <option value="248" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/SuperSpammer.Architecture/SmtpClientService.cs" containingFunctionPresentation="Method 'SendEmailAsync'">
+            <startOffsets>
+              <option value="774" />
+            </startOffsets>
+            <endOffsets>
+              <option value="829" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

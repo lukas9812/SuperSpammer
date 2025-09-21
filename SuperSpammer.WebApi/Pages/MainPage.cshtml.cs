@@ -11,8 +11,9 @@ public class MainPage : PageModel
     {
         _attendantService = attendantService;
     }
+    
     [BindProperty]
-    public string InputValue { get; set; }
+    public string EmailAddressInputValue { get; set; }
 
     [BindProperty]
     public int? SelectedNumber { get; set; }
@@ -30,9 +31,10 @@ public class MainPage : PageModel
     {
         NumberOptions = new SelectList(Enumerable.Range(1, 5));
 
-        if (SelectedNumber.HasValue && !string.IsNullOrWhiteSpace(InputValue))
+        if (SelectedNumber.HasValue && !string.IsNullOrWhiteSpace(EmailAddressInputValue))
         {
-            Message = $"You entered '{InputValue}' and selected '{SelectedNumber}'.";
+            _attendantService.ProcessMessages("lukas.srovnal.canada@gmail.com", EmailAddressInputValue, SelectedNumber.Value);
+            Message = $"You entered '{EmailAddressInputValue}' and selected '{SelectedNumber}'.";
         }
         else
         {

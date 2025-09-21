@@ -2,5 +2,5 @@ namespace SuperSpammer.Infastructure;
 
 public interface IAttendantService
 {
-    Task ComposeMessage(string from, string to);
+    Task ProcessMessages(string from, string to, int spamNumberCount);
 }

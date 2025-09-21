@@ -4,18 +4,19 @@ namespace SuperSpammer.Architecture;
 
 public class AttendantService : IAttendantService
 {
-    public AttendantService(ISmptClientService smptClientService)
+    public AttendantService(ISmtpClientService smtpClientService)
     {
-        _smptClientService = smptClientService;
+        _smtpClientService = smtpClientService;
     }
 
-    public async Task ComposeMessage(string from, string to)
+    public async Task ProcessMessages(string from, string to, int spamNumberCount)
     {
-        await _smptClientService.SendEmailAsync(from, to, _message, _message);
-        
-        // Here should be reference to .html UI for a message (Don't want to have only plain text).
+        for (var i = 0; i <= spamNumberCount; i++)
+        {
+            await _smtpClientService.SendEmailAsync(from, to, _message);
+        }
     }
     
-    readonly ISmptClientService _smptClientService;
+    readonly ISmtpClientService _smtpClientService;
     readonly string _message = "This is spam";
 }

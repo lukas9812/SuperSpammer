@@ -5,12 +5,12 @@
 
 <form method="post">
     <div class="mb-3">
-        <label asp-for="InputValue" class="form-label">Enter value:</label>
-        <input asp-for="InputValue" class="form-control" />
+        <label asp-for="EmailAddressInputValue" class="form-label">Enter email address:</label>
+        <input asp-for="EmailAddressInputValue" class="form-control" />
     </div>
 
     <div class="mb-3">
-        <label asp-for="SelectedNumber" class="form-label">Select number:</label>
+        <label asp-for="SelectedNumber" class="form-label">Select spam count number:</label>
         <select asp-for="SelectedNumber" class="form-select" asp-items="Model.NumberOptions">
             <option value="">-- Choose a number --</option>
         </select>
