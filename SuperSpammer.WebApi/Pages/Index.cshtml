@@ -3,8 +3,31 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<div class="form-container">
+    <div class="background-image"></div>
+    <div class="form-box">
+            <h2>Super Spammer</h2>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+            <form method="post">
+                <div class="mb-3">
+                    <label asp-for="EmailAddressInputValue">Enter email address:</label>
+                    <input asp-for="EmailAddressInputValue" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SelectedNumber">Select spam count number:</label>
+                    <select asp-for="SelectedNumber" class="form-select" asp-items="Model.NumberOptions">
+                        <option value="">-- Choose a number --</option>
+                    </select>
+                </div>
+
+                <button type="submit">Submit</button>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>

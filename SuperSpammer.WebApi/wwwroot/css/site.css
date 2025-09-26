@@ -29,3 +29,119 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.form-container-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;          /* výška celé obrazovky */
+  background: #f0f2f5;        /* jemné pozadí celé stránky */
+  padding: 20px;
+}
+
+.form-box {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;            /* omezení šířky */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.form-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-box label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: forestgreen;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form-box button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.form-box .nav {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.form-box .nav-link {
+  color: #555;
+  transition: color 0.2s;
+}
+
+.form-box .nav-link:hover {
+  color: #007bff;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('../background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6); /* ztlumení */
+  z-index: 0;
+}
+
+.form-box {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  color: black;
+  background: darkgrey;
+  border-radius: 15px;
+}
