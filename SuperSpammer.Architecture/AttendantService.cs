@@ -11,7 +11,7 @@ public class AttendantService : IAttendantService
 
     public async Task ProcessMessages(string from, string to, int spamNumberCount)
     {
-        for (var i = 0; i <= spamNumberCount; i++)
+        for (var i = 0; i < spamNumberCount; i++)
         {
             await _smtpClientService.SendEmailAsync(from, to, _message);
         }

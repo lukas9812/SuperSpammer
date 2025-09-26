@@ -18,7 +18,7 @@ public class SmtpClientService : ISmtpClientService
         var htmlBody = await File.ReadAllTextAsync(filePath);
 
         var message = new MimeMessage();
-        message.From.Add(new MailboxAddress(from, from));
+        message.From.Add(new MailboxAddress("SuperSpammer_Test", from));
         message.To.Add(new MailboxAddress(to, to));
         message.Subject = subject;
 
@@ -47,8 +47,6 @@ public class SmtpClientService : ISmtpClientService
     
     readonly string _smtpServer = "smtp.gmail.com";
     readonly int _port = 587;
-    readonly string _username = "tvuj@email.com";
-    readonly string _password = "xxxx";
     readonly bool _useSsl = false;
     readonly EmailCredentials _emailCredentials;
 }

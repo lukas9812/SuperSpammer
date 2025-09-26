@@ -1,9 +1,10 @@
 @page
 @model SuperSpammer.WebApi.Pages.MainPage
 
+<div class="form-container" align="center">
 <h2>Super Spammer</h2>
 
-<form method="post">
+<form method="post" style="background:#fff; padding:30px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); width:300px; text-align:center;">
     <div class="mb-3">
         <label asp-for="EmailAddressInputValue" class="form-label">Enter email address:</label>
         <input asp-for="EmailAddressInputValue" class="form-control" />
@@ -17,7 +18,13 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+        </li>
+    </ul>
 </form>
+</div>
 
 @if (Model.Message != null)
 {
@@ -25,10 +32,3 @@
         @Model.Message
     </div>
 }
-
-<!-- Navigace -->
-<ul class="nav">
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-    </li>
-</ul>
