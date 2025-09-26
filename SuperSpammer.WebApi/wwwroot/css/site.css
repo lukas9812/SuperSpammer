@@ -45,8 +45,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;          /* výška celé obrazovky */
-  background: #f0f2f5;        /* jemné pozadí celé stránky */
+  min-height: 100vh;
+  background: #f0f2f5;
   padding: 20px;
 }
 
@@ -56,7 +56,7 @@ body {
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   width: 100%;
-  max-width: 400px;            /* omezení šířky */
+  max-width: 400px;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -133,7 +133,7 @@ body {
   background-image: url('../background.jpg');
   background-size: cover;
   background-position: center;
-  filter: brightness(0.6); /* ztlumení */
+  filter: brightness(0.6);
   z-index: 0;
 }
 
@@ -144,4 +144,37 @@ body {
   color: black;
   background: darkgrey;
   border-radius: 15px;
+}
+
+.background-image-sender-setup {
+  position: absolute;
+  inset: 0;
+  background-image: url('../sender_background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+  z-index: 0;
+}
+
+.btn-arrow-left {
+  display: inline-flex; 
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: gray;
+  color: dimgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-arrow-left:hover {
+  background-color: grey;
+}
+
+.btn-arrow-left::before {
+  content: '←';
+  margin-right: 6px;
+  font-size: 14px;
 }

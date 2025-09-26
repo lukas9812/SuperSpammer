@@ -1,7 +1,7 @@
 ﻿@page
 @model SuperSpammer.WebApi.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "SuperSpammer";
 }
 <div class="form-container">
     <div class="background-image"></div>
@@ -25,9 +25,16 @@
 
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                        <a class="nav-link" asp-area="" asp-page="/SenderSetup">Sender Setup</a>
                     </li>
                 </ul>
             </form>
-        </div>
+            
+            @if (Model.Message != null)
+            {
+                <div class="alert alert-success mt-3">
+                    @Model.Message
+                </div>
+            }
+    </div>
     </div>

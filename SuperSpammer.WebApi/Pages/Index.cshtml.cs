@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -17,9 +18,12 @@ public class IndexModel : PageModel
     }
 
     [BindProperty]
+    [Required]
+    [EmailAddress]
     public string EmailAddressInputValue { get; set; }
 
     [BindProperty]
+    [Required]
     public int? SelectedNumber { get; set; }
 
     public string Message { get; set; }
@@ -38,7 +42,9 @@ public class IndexModel : PageModel
         if (SelectedNumber.HasValue && !string.IsNullOrWhiteSpace(EmailAddressInputValue))
         {
             _attendantService.ProcessMessages("lukas.srovnal.canada@gmail.com", EmailAddressInputValue, SelectedNumber.Value);
-            Message = $"You entered '{EmailAddressInputValue}' and selected '{SelectedNumber}'.";
+            Message = SelectedNumber.Value == 1 
+                ? $"You sent 1 email on '{EmailAddressInputValue} email address." 
+                : $"You sent {SelectedNumber} emails on '{EmailAddressInputValue} email address.";
         }
         else
         {

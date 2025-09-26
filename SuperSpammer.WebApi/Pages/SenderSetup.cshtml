@@ -1,0 +1,44 @@
+@page
+@model SuperSpammer.WebApi.Pages.SenderSetup
+
+@{
+    ViewData["Title"] = "SuperSpammer";
+}
+
+<div class="form-container">
+    <div class="background-image-sender-setup"></div>
+    <div class="form-box">
+        <h2>Sender Setup</h2>
+
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="SenderEmail">Enter your email address:</label>
+                <input asp-for="SenderEmail" class="form-control"/>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="SenderEmailPassword">Enter your email address password:</label>
+                <input asp-for="SenderEmail" class="form-control"/>
+            </div>
+
+            <button type="submit" style="background: grey">Setup Sender</button>
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                </li>
+            </ul>
+            
+            <a class="nav">
+                <button class="btn-arrow-left" asp-page="/Index"></button>
+            </a>
+        </form>
+
+        @if (Model.Message != null)
+        {
+            <div class="alert alert-success mt-3">
+                @Model.Message
+            </div>
+        }
+    </div>
+</div>
