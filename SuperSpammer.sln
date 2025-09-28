@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.WebApi", "SuperSpammer.WebApi\SuperSpammer.WebApi.csproj", "{FA7908B4-6C8B-4016-BA36-71AB7BC85AD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.Architecture", "SuperSpammer.Architecture\SuperSpammer.Architecture.csproj", "{2D63BE53-D478-478B-B805-B4B4A0844AC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.Engine", "SuperSpammer.Engine\SuperSpammer.Engine.csproj", "{2D63BE53-D478-478B-B805-B4B4A0844AC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpammer.Infastructure", "SuperSpammer.Infastructure\SuperSpammer.Infastructure.csproj", "{E6F6607E-20A3-42B7-A225-919832B1D861}"
 EndProject

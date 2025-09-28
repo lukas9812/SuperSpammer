@@ -2,5 +2,5 @@
 
 public interface ISmtpClientService
 {
-    Task SendEmailAsync(string from, string to, string subject);
+    Task<bool> SendEmailAsync(string to, string subject);
 }

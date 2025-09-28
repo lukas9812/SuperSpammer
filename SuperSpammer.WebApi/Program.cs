@@ -1,11 +1,12 @@
-using SuperSpammer.Architecture;
-using SuperSpammer.Architecture.Models;
+using SuperSpammer.Engine;
+using SuperSpammer.Engine.Models;
 using SuperSpammer.Infastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddMemoryCache();
 builder.Services.AddSingleton<ISmtpClientService, SmtpClientService>();
 builder.Services.AddScoped<IAttendantService, AttendantService>();
 builder.Services.Configure<EmailCredentials>(

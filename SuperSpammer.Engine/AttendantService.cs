@@ -1,6 +1,6 @@
 using SuperSpammer.Infastructure;
 
-namespace SuperSpammer.Architecture;
+namespace SuperSpammer.Engine;
 
 public class AttendantService : IAttendantService
 {
@@ -9,12 +9,14 @@ public class AttendantService : IAttendantService
         _smtpClientService = smtpClientService;
     }
 
-    public async Task ProcessMessages(string from, string to, int spamNumberCount)
+    public async Task<bool> ProcessMessages(string to, int spamNumberCount)
     {
+        bool retval = false;
         for (var i = 0; i < spamNumberCount; i++)
         {
-            await _smtpClientService.SendEmailAsync(from, to, _message);
+            retval = await _smtpClientService.SendEmailAsync(to, _message);
         }
+        return retval;
     }
     
     readonly ISmtpClientService _smtpClientService;

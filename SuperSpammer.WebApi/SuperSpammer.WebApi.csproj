@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SuperSpammer.Architecture\SuperSpammer.Architecture.csproj" />
+      <ProjectReference Include="..\SuperSpammer.Engine\SuperSpammer.Engine.csproj" />
     </ItemGroup>
 
     <ItemGroup>
