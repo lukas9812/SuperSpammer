@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SuperSpammer.Engine\SuperSpammer.Engine.csproj" />
+      <ProjectReference Include="..\SuperSpammer.Storage\SuperSpammer.Storage.csproj" />
     </ItemGroup>
 
     <ItemGroup>
